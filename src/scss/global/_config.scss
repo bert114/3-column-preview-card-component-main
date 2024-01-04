@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+$ff-title: "Big Shoulders Display", sans-serif;
+$ff: "Lexend Deca", sans-serif;
+$regular: 400;
+$bold: 700;
+
+//MIX IN
+@mixin flex($direction, $align: initial) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: $align;
+}
+
+//======COLOR======//
+$clr-primary400: hsl(31, 77%, 52%);
+$clr-primary500: hsl(184, 100%, 22%);
+$clr-primary600: hsl(179, 100%, 13%);
+
+$clr-neutral100: hsl(0, 0%, 95%);
+$clr-neutral80: hsla(0, 0%, 100%, 0.75);
