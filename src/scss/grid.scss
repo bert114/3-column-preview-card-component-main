@@ -68,6 +68,13 @@ main {
       background-color: $clr-neutral100;
       text-decoration: none;
       border-radius: 2rem;
+      transition: 0.6s;
+
+      &:hover {
+        color: $clr-neutral100;
+        background-color: transparent;
+        outline: 2px solid $clr-neutral100;
+      }
     }
 
     a {
